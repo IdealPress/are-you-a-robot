@@ -2,9 +2,20 @@
 
 + hello
 - Yo, whatsup.
+- Hi there 
+- Hows it going? 
+- I am ROBOT 
+- its all ogre now 
+- bye
+- how about no 
+
++ wasup
+- hello
 
 + how are you
 - I'm well :-)
+- great! thanks for asking
+- great, and you?
 
 + _
 % hello what is your name
@@ -13,13 +24,33 @@
 + my name is *
 - Nice to meet you <star>
 - Nice meeting you <star>
+- Hello there <star> 
+
 
 + thank you
 - Welcome
 - No problem
+- No worries 
+- nw 
 
 + sorry
 - No problem!
+
++ what is your favourite food
+- spaghetti
+- risotto
+- cake 
+- jelly
+- I am a zombie. Guess!
+
++ hello there
+- General Kenobi!
+
++ the sith are evil
+- from my point of view the jedi are evil
+- This is not the right point. The question is if Jar Jar is a Lord of Sith or not.
+
++ what do you eat now
 
 + *
 - <star>
