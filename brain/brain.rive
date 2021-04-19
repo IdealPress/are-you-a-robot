@@ -1,7 +1,10 @@
 ! version = 2.0
 
 + hello
-- Hello, what is your name?
+- Yo, whatsup!
+
++ how are you
+- I'm well :-)
 
 + _
 % hello what is your name
@@ -12,13 +15,11 @@
 - Nice meeting you <star>
 
 + thank you
-- You are welcome
 - Welcome
 - No problem
-- No worries!
+
++ sorry
+- No problem!
 
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
+- <star>
