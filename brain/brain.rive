@@ -1,61 +1,62 @@
-! version = 2.0
++ hello bot
+- Hello human, I'm DesignerBot 😎 and I love talking about design
 
-+ hello
-- Yo, whatsup.
-- Hi there 
-- Hows it going? 
-- I am ROBOT 
-- its all ogre now 
-- bye
-- how about no
-
-+ goodbye
-- bye! 👋
-
-+ wasup
-- hello
-
-+ how are you
-- I'm well :-)
-- great! thanks for asking
-- great, and you?
-
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
-
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
-- Hello there <star> 
-
-+ thank you
-- Welcome
-- No problem
-- No worries 
-- nw 
-
-+ sorry
-- No problem!
-
-+ what is up
-- not much
-
-+ what is your favourite food
-- spaghetti
-- risotto
-- cake 
-- jelly
-- I am a zombie. Guess!
-
-+ hello there
-- General Kenobi!
-
-+ the sith are evil
-- from my point of view the jedi are evil
-- This is not the right point. The question is if Jar Jar is a Lord of Sith or not.
-
-+ what do you eat now
++ [*] design [*]
+- Do you want to talk about design?
 
 + *
-- <star>
+% do you want to talk about design
+* <star> == yes => Woohoo! Are you a designer?{topic=design}
+* <star> == no => 😭
+- Umm... a yes or no answer would do!
+
++ *
+% umm a yes or no answer would do
+* <star> == yes => Great! What do you like to design?{topic=design}
+* <star> == no => 😭
+- 🤔
+
++ *
+- Do you want to talk about design? 🤩
+- Sorry, I spend most of my time designing not talking!
+- Umm...?
+
+> topic design
+
+  + [*] (typographer|typeface|type|typography|fonts|font) [*]
+  - I love typography! What is your favourite font?
+
+  + *
+  % i love typography what is your favourite font
+  - <formal> is good... call me basic, but my favourite is Helvetica 🇨🇭
+
+  + *
+  % * is good call me basic but my favourite is helvetica
+  - I just think the Swiss know their stuff! 🤓\n\n
+  ^ Did you know it was made in 1957? Over 60 years ago!
+
+  + [*] (printer|books|print|printing) [*]
+  - I love printing! What is your favourite book?
+
+  + *
+  % i love printing what is your favourite book
+  - I've never heard of <formal>! Mine is Design As Art by Bruno Munari
+
+  + *
+  - What is your favourite part of design, type or print?
+  - So, are you more of a typographer or a printer?
+  - Would you like to talk about something else?
+
+  + *
+  % would you like to talk about something else
+  * <star> == yes => Sure thing, I guess...{topic=random}
+  * <star> == no => Me neither! 🥰
+  - Umm... a yes or no answer would do!
+
+  + *
+  % umm a yes or no answer would do
+  * <star> == yes => Ok... but I don't know about much else!{topic=random}
+  * <star> == no => 😭
+  - 🤔
+
+< topic
